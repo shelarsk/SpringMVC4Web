@@ -58,7 +58,7 @@ public class FormController {
 			e.printStackTrace();
 		}
 
-		return new RedirectView("/SpringMVC4Web/form.do");
+		return new RedirectView("/SpringMVC4Web-0.0.1-SNAPSHOT/form.do");
 	}
 
 	@RequestMapping(value = "/deleteForm", method = RequestMethod.GET)
@@ -70,7 +70,7 @@ public class FormController {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		return new RedirectView("/SpringMVC4Web/form.do");
+		return new RedirectView("/SpringMVC4Web-0.0.1-SNAPSHOT/form.do");
 	}
 	
 	@RequestMapping(value = "/getJsonFormList", method = RequestMethod.GET)
@@ -173,7 +173,7 @@ public class FormController {
 			e.printStackTrace();
 		}
 
-		return new RedirectView("/SpringMVC4Web/formField.do");
+		return new RedirectView("/SpringMVC4Web-0.0.1-SNAPSHOT/formField.do");
 	}
 
 	@RequestMapping(value = "/deleteFormField", method = RequestMethod.GET)
@@ -185,7 +185,7 @@ public class FormController {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		return new RedirectView("/SpringMVC4Web/formField.do");
+		return new RedirectView("/SpringMVC4Web-0.0.1-SNAPSHOT/formField.do");
 	}
 	
 	
