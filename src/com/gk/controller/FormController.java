@@ -37,7 +37,7 @@ public class FormController {
 	public String getList(ModelMap model) {
 		try {
 			model.addAttribute("dataList", getService().loadAll());
-			System.out.println(getService().getJsonAllRecords(null).toString());
+			//System.out.println(getService().getJsonAllRecords(null).toString());
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
