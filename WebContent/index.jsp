@@ -15,6 +15,7 @@ InfoDriver POC<br> <br>
 </h2>
 <h3>
 <a href="notification.do">Send Notifications </a>
+<a href="form.do">Add Form </a>
 </br>
 
 </h3>
