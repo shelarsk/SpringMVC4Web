@@ -56,7 +56,7 @@ public class NotificationController {
 			e.printStackTrace();
 		}
 
-		return new RedirectView("/SpringMVC4Web/notification.do");
+		return new RedirectView("/SpringMVC4Web-0.0.1-SNAPSHOT/notification.do");
 	}
 
 	@RequestMapping(value = "/deleteNotification", method = RequestMethod.GET)
@@ -68,7 +68,7 @@ public class NotificationController {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		return new RedirectView("/SpringMVC4Web/notification.do");
+		return new RedirectView("/SpringMVC4Web-0.0.1-SNAPSHOT/notification.do");
 	}
 	
 	@RequestMapping(value = "/getJsonNoficationList", method = RequestMethod.GET)
